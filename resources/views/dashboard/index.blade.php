@@ -14,12 +14,12 @@
             <div class="small-box bg-info">
                 <div class="inner">
                     <h3>{{$guru->count()}}</h3>
-                    <p>New Orders</p>
+                    <p>Data Guru</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-bag"></i>
+                    <i class="nav-icon fas fa-user-tie"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ route ('guru.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
 
@@ -27,13 +27,13 @@
 
             <div class="small-box bg-success">
                 <div class="inner">
-                    <h3>53<sup style="font-size: 20px">%</sup></h3>
-                    <p>Bounce Rate</p>
+                    <h3>{{$kelas->count()}}</h3>
+                    <p>Daftar Kelas</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-stats-bars"></i>
+                    <i class="nav-icon fas fa-chalkboard"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ route ('kelas.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
 
@@ -41,13 +41,13 @@
 
             <div class="small-box bg-warning">
                 <div class="inner">
-                    <h3>44</h3>
-                    <p>User Registrations</p>
+                    <h3>{{$mapel->count()}}</h3>
+                    <p>Daftar Mapel</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-person-add"></i>
+                    <i class="nav-icon fas fa-book"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ route ('mapel.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
 
@@ -55,13 +55,13 @@
 
             <div class="small-box bg-danger">
                 <div class="inner">
-                    <h3>65</h3>
-                    <p>Unique Visitors</p>
+                    <h3>{{$siswa->count()}}</h3>
+                    <p>Data Siswa</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-pie-graph"></i>
+                <i class="nav-icon fas fa-user-graduate"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="{{ route ('siswa.index') }}" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
 
